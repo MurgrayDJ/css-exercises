@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  /*My additions*/
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
 }
 
 .icon {
@@ -33,6 +38,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /*My additions*/
+  flex-shrink: 0;
+  margin: 0 10px 10px 0;
+}
+
+/*My additions*/
+.header {
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*My additions*/
+.text {
+  margin: 10px 0 10px 0;
 }
 
 .close-button {
@@ -46,11 +67,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /*My additions*/
+  flex-shrink: 0;
+  margin-left: 10px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  /*My additions*/
+  margin-top: 5px;
 }
 
 button.continue {
